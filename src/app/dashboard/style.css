@@ -1,0 +1,70 @@
+
+
+  /* https://dribbble.com/shots/25155029-Finance-Dashboard-Design */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height:100vh;
+    border: 1px solid black;
+    display: flex;
+}
+.sidebar{
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #000302f7;
+}
+
+.nav-container{
+    width: 100%;
+    height: 70%;
+    border: 1px solid red;
+}
+
+.parent-list{
+    /* margin: 0 auto; */
+    width: 60%;
+    height: 80%;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-list{
+ width: 100%;
+ height: 40px;
+ padding: 10px 0;
+ text-align: center;
+ border-radius: 50px;
+border: none;
+background-color: transparent;
+ list-style-type: none;
+ transition: background-color 0.4s ease-in-out;
+ 
+}
+
+.nav-link-default{
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color:#fff;
+    cursor: pointer;
+    transition:color 0.4s ease-in-out;
+}
+
+.nav-list:hover{
+    
+    background-color: #addffe;
+}
+
+.nav-link-default:hover{
+    color: #000302f7;
+}
