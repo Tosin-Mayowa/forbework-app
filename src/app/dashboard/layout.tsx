@@ -22,7 +22,7 @@ export default function DashboardLayout({
           <aside className="sidebar">{sidebar}</aside>
           <main className="main-content">
             <header className='main-content-header'>
-              <h1 className='greetings'>Hello, James</h1>
+              <h1 className='greetings'>Hi,Mayowa</h1>
               <div className="header-widget">
               <FaRegCalendarAlt className='icon'/>
               <MdOutlineMessage className='icon'/>
