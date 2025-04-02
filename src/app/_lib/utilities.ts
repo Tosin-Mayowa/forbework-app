@@ -1,7 +1,7 @@
 import { LuLayoutDashboard } from "react-icons/lu";
 
 export const navLinks=[
-  {href:"/dashboard/transactions",title:"Overview"},
+  {href:"/dashboard",title:"Overview"},
   {href:"/dashboard/transactions",title:"Transactions"},
   {href:"/dashboard/investment",title:"Investment"},
   {href:"/dashboard/savings",title:"Savings"},
