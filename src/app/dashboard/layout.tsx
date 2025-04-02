@@ -1,5 +1,13 @@
 import './style.css';
-
+import { IoNotifications } from "react-icons/io5";
+import { MdOutlineMessage } from "react-icons/md";
+import { FaRegCalendarAlt } from "react-icons/fa";
+import { LuLayoutDashboard } from "react-icons/lu";
+import { MdOutlineSavings } from "react-icons/md";
+import { GrTransaction } from "react-icons/gr";
+import { MdOutlineInventory } from "react-icons/md";
+import { RiProfileFill } from "react-icons/ri";
+import Link from "next/link"
 export default function DashboardLayout({
   children,
   sidebar, 
@@ -16,7 +24,26 @@ export default function DashboardLayout({
             <header className='main-content-header'>
               <h1 className='greetings'>Hello, James</h1>
               <div className="header-widget">
+              <FaRegCalendarAlt className='icon'/>
+              <MdOutlineMessage className='icon'/>
+              <IoNotifications className='icon'/>
+                <div className="avatar">JA</div>
+              </div>
+              <div className="header-nav-responsive">
+               <ul className='parent-resp-list'>
+                <li className="responsive-list">
+                <GrTransaction className='icon'/>
+                  <Link href="/dashboar/transactions" className='resp-link'>Transactions</Link>
+                </li>
+                <li className="responsive-list">
+                  <MdOutlineSavings className='icon'/>
+                <Link href="/dashboar/savings" className='resp-link'>Savings</Link>
+                </li>
+                <li className="responsive-list">
+                <IoNotifications className='icon'/>
+                </li>
                 
+               </ul>
               </div>
             </header>
             {children}</main>
