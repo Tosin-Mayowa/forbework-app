@@ -2,12 +2,11 @@ import './style.css';
 import { IoNotifications } from "react-icons/io5";
 import { MdOutlineMessage } from "react-icons/md";
 import { FaRegCalendarAlt } from "react-icons/fa";
-import { LuLayoutDashboard } from "react-icons/lu";
+
 import { MdOutlineSavings } from "react-icons/md";
 import { GrTransaction } from "react-icons/gr";
-import { MdOutlineInventory } from "react-icons/md";
-import { RiProfileFill } from "react-icons/ri";
-import Link from "next/link"
+
+import Link from "next/link";
 export default function DashboardLayout({
   children,
   sidebar, 
