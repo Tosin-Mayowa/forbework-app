@@ -32,11 +32,11 @@ export default function DashboardLayout({
                <ul className='parent-resp-list'>
                 <li className="responsive-list">
                 <GrTransaction className='icon'/>
-                  <Link href="/dashboar/transactions" className='resp-link'>Transactions</Link>
+                  <Link href="/dashboard/transactions" className='resp-link'>Transactions</Link>
                 </li>
                 <li className="responsive-list">
                   <MdOutlineSavings className='icon'/>
-                <Link href="/dashboar/savings" className='resp-link'>Savings</Link>
+                <Link href="/dashboard/savings" className='resp-link'>Savings</Link>
                 </li>
                 <li className="responsive-list">
                 <IoNotifications className='icon'/>
