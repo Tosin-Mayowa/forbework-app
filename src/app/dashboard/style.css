@@ -591,3 +591,14 @@ margin-left: 5px;
     }
   }
   
+
+  /* mobile view 468px*/
+
+  @media screen and (max-width: 468px) {
+.balance-mob,.transact-mob{
+  flex-direction: column;
+}
+.greetings{
+  font-size: 14px;
+}
+  }
