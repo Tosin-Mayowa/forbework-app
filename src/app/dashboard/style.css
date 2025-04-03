@@ -95,7 +95,7 @@ background-color: transparent;
     background-color: #addffe;
 }
 
-.nav-link-default:hover{
+.nav-list:hover .nav-link-default{
     color: #000302f7;
 }
 
