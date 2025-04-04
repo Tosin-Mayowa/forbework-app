@@ -296,7 +296,7 @@ th{
     background-color: #759bb3 ;
     transition: width 0.3s ease-in-out;
 }
-.progress-fluid:hover{
+.progress-bar:hover .progress-fluid{
     width: 70%;
 }
 .progress-heading,.progress-text,.process-details{
