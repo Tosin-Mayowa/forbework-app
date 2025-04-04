@@ -8,7 +8,7 @@ const pathname=usePathname();
     return (
      <div className="sidebar-div">
       <h1 className="logo">
-        Logo
+        Forbe-Work
       </h1>
        <nav className="nav-container">
         <ul className="parent-list">

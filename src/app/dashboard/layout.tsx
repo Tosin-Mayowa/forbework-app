@@ -26,7 +26,7 @@ export default function DashboardLayout({
               <FaRegCalendarAlt className='icon'/>
               <MdOutlineMessage className='icon'/>
               <IoNotifications className='icon'/>
-                <div className="avatar">JA</div>
+                <div className="avatar">MA</div>
               </div>
               <div className="header-nav-responsive">
                <ul className='parent-resp-list'>

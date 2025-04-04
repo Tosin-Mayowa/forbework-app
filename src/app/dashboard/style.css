@@ -26,14 +26,16 @@
   flex-direction: column;
   justify-content: space-between;
   background-color: #000302f7;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   padding: 20px;
 }
 .logo{
-  font-size: 40px;
+  font-size: 30px;
   color:white;
-  text-align: center;
+  text-align: left;
   margin-right: 100px;
+  width: 100%;
+  /* border: 1px solid white; */
 }
 .nav-container{
     width: 100%;
